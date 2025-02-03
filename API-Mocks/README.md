@@ -36,6 +36,6 @@ Here's an example of what a mock might look like:
     }
 }
 ```
-
+        "urlPattern": "/rest/v1.1/me/",
 These files are used to match network requests while the tests are being run. For more on request matching with
 WireMock check out [their documentation](http://wiremock.org/docs/request-matching/).
